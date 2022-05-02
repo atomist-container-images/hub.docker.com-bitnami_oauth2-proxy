@@ -1,12 +1,21 @@
-# Tags: latest, 7.2.1-debian-10-r125, 7.2.1, 7-debian-10, 7
+# Tags: latest, 7.2.1-debian-10-r128, 7.2.1, 7-debian-10, 7
 FROM bitnami/oauth2-proxy:latest
-FROM bitnami/oauth2-proxy:7.2.1-debian-10-r125
+FROM bitnami/oauth2-proxy:7.2.1-debian-10-r128
 FROM bitnami/oauth2-proxy:7.2.1
 FROM bitnami/oauth2-proxy:7-debian-10
 FROM bitnami/oauth2-proxy:7
 
 # Tags: _
 FROM bitnami/oauth2-proxy:_
+
+# Tags: 7.2.1-debian-10-r127
+FROM bitnami/oauth2-proxy:7.2.1-debian-10-r127
+
+# Tags: 7.2.1-debian-10-r126
+FROM bitnami/oauth2-proxy:7.2.1-debian-10-r126
+
+# Tags: 7.2.1-debian-10-r125
+FROM bitnami/oauth2-proxy:7.2.1-debian-10-r125
 
 # Tags: 7.2.1-debian-10-r124
 FROM bitnami/oauth2-proxy:7.2.1-debian-10-r124
@@ -79,18 +88,3 @@ FROM bitnami/oauth2-proxy:7.2.1-debian-10-r101
 
 # Tags: 7.2.1-debian-10-r100
 FROM bitnami/oauth2-proxy:7.2.1-debian-10-r100
-
-# Tags: 7.2.1-debian-10-r99
-FROM bitnami/oauth2-proxy:7.2.1-debian-10-r99
-
-# Tags: 7.2.1-debian-10-r98
-FROM bitnami/oauth2-proxy:7.2.1-debian-10-r98
-
-# Tags: 7.2.1-debian-10-r97
-FROM bitnami/oauth2-proxy:7.2.1-debian-10-r97
-
-# Tags: 7.2.1-debian-10-r96
-FROM bitnami/oauth2-proxy:7.2.1-debian-10-r96
-
-# Tags: 7.2.1-debian-10-r95
-FROM bitnami/oauth2-proxy:7.2.1-debian-10-r95
